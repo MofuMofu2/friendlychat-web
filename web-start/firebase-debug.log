@@ -1,0 +1,41 @@
+[debug] [2018-06-11T06:43:48.684Z] ----------------------------------------------------------------------
+[debug] [2018-06-11T06:43:48.687Z] Command:       /Users/mallow/.nodebrew/node/v6.11.5/bin/node /Users/mallow/.nodebrew/current/bin/firebase serve
+[debug] [2018-06-11T06:43:48.688Z] CLI Version:   3.18.6
+[debug] [2018-06-11T06:43:48.688Z] Platform:      darwin
+[debug] [2018-06-11T06:43:48.688Z] Node Version:  v6.11.5
+[debug] [2018-06-11T06:43:48.688Z] Time:          Mon Jun 11 2018 15:43:48 GMT+0900 (JST)
+[debug] [2018-06-11T06:43:48.688Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-11T06:43:48.703Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-11T06:43:48.703Z] > authorizing via signed-in user
+[debug] [2018-06-11T06:43:48.706Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/friendlychat-93249  
+  
+ Mon Jun 11 2018 15:43:48 GMT+0900 (JST)
+[debug] [2018-06-11T06:43:51.296Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-11T06:43:51.298Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/friendlychat-93249/tokens  
+  
+ Mon Jun 11 2018 15:43:51 GMT+0900 (JST)
+[debug] [2018-06-11T06:43:53.400Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-11T06:43:53.401Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-93249  
+  
+ Mon Jun 11 2018 15:43:53 GMT+0900 (JST)
+[debug] [2018-06-11T06:43:56.456Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/mallow/Git/friendlychat-web/web-start'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-06-11T06:43:57.227Z] Fetching environment
+[debug] [2018-06-11T06:43:57.232Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/799195974755:getServerAppConfig  
+  
+ Mon Jun 11 2018 15:43:57 GMT+0900 (JST)
+[debug] [2018-06-11T06:43:57.233Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/799195974755/clients/_:getWebAppConfig  
+  
+ Mon Jun 11 2018 15:43:57 GMT+0900 (JST)
+[debug] [2018-06-11T06:43:59.817Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-11T06:43:59.818Z] Starting @google-cloud/functions-emulator
+[debug] [2018-06-11T06:43:59.864Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2018-06-11T06:44:01.428Z] Parsing function triggers
+[info] i  functions: No HTTPS functions found. Use firebase functions:shell if you would like to emulate other types of functions.
